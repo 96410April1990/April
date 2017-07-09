@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rohith&#039;s bio-data" thread-count="2" parallel="classes" group-by-instances="false" verbose="1" allow-return-values="false" data-provider-thread-count="10" junit="false" configfailurepolicy="skip" preserve-order="true" skipfailedinvocationcounts="false">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="practiceselenium.SampleScriptThree"/>
+      <class name="practiceselenium.SampleScriptFour"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Rohith's bio-data -->

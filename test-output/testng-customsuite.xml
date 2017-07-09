@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rohith's suite" parallel="tests" thread-count="20">
+  <test verbose="2" name="Rohith's test">
+	<parameter name="username" value="rohithkumar90@ymail.com"/>
+	<parameter name="password" value="rohithkumar90"/>
+	<parameter name="loginId" value="rohithkumar90@ymail.com"/>
+	<parameter name="loginPassword" value="rohith270419909940096410abcd1990"/>
+    <classes>
+      <class name="javapracticeone.PracticeMethodsOne"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

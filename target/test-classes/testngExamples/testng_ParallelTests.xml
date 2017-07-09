@@ -1,0 +1,13 @@
+<suite  name="JavaJoes suite"  parallel="tests" thread-count="2">
+  <test name="Swati test">
+    <classes>
+      <class name="week4.SwatiLifeCycle"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+    <test verbose="2" name="Prashanth test">
+    <classes>
+      <class name="week4.PrashanthLifeCycle"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

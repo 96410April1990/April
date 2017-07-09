@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Rohith&#039;s bio-data]" parallel="classes">
+  <test name="Default test(failed)" parallel="classes">
+    <classes>
+      <class name="practiceone.CommonSteps">
+        <methods>
+          <include name="close_Frames"/>
+          <include name="hndl_run_time_exception"/>
+          <include name="using_Drag_and_Drop"/>
+          <include name="hlng_Alerts_W3s"/>
+          <include name="count_Frames"/>
+          <include name="before_suite_test"/>
+          <include name="before_test"/>
+          <include name="read_Excel"/>
+          <include name="hndl_popup"/>
+          <include name="after_suite"/>
+          <include name="using_object_repository"/>
+          <include name="using_excel_sheet"/>
+          <include name="int_with_dropdown"/>
+          <include name="acpt_alerts"/>
+          <include name="hndl_Draggable"/>
+          <include name="before_method"/>
+          <include name="after_test"/>
+          <include name="after_class"/>
+          <include name="hndl_Droppable"/>
+          <include name="after_method"/>
+          <include name="before_class"/>
+          <include name="using_Right_Click"/>
+          <include name="write_excel"/>
+        </methods>
+      </class> <!-- practiceone.CommonSteps -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Rohith's bio-data] -->

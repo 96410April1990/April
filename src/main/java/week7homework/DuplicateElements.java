@@ -20,13 +20,13 @@ public class DuplicateElements {
 		names.add("Hari");
 
 		// get the count of the ArrayList
-		System.out.println("The number of elements in the ArrayList is:" + names.size());
+		System.out.println("The elements in the ArrayList are:" + names.size());
 
 		// Add a new entry to the ArrayList
 		names.add("Rohith");
 
 		//get the count of the ArrayList
-		System.out.println("The number of elements in the ArrayList is:" + names.size());
+		System.out.println("The elements in the ArrayList are:" + names.size());
 		
 		// Check for duplicate entries
 		String duplicateNames = "Rohith";

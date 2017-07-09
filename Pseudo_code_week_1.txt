@@ -1,0 +1,76 @@
+Exercise One:
+
+1) Create a class and declare an integer variable limit and assign the value 45.
+2) use the print statement to print the message.
+3) use for loop to declare another integer variable i and assign the value 30 to it with the condition it should be lesser than the already declared integer variable.
+4) Use the isPrime method with the data type boolean to check whether the number is prime or not.
+5) use another for loop to declare another variable j and assign the value 2 provided it is lesser than the already declared variables.
+6) use a if statement within the foor loop within the for loop with the condition i%j == 0 to declare the number is not prime.
+7) use another if statement with the condition isPrime to print the prime numbers from 30-45.
+
+Exercise Two:
+
+1) Declare the int variables n1, n2, n3, i and count
+2) Assign the values to variables n1, n2 and count
+3) Print the values of variables of n1 and n2
+4) use for loop by assigning a value to variable i and loop until the value of count is satisfied and assign the value to n3 and print the value of n3.
+
+Exercise Three:
+
+1) Declare two integer variables i and j with values 100 and 200 respectively.
+2) Print the statement The even numbers between 100 and 200 are:
+3) use a for loop with the conditions i=100 and i<=j.
+4) use a if statement with the condition i%2 == 0
+5) Print the value of i using system.out.println
+
+Exercise Four:
+
+1) Launch the firefox browser
+2) Open the url "https://www.irctc.co.in/eticketing/userSignUp.jsf"
+3) Maximize the browser window
+4) Use implicitly wait 
+5) Find the webelements to enter the User Id, password, security question and create objects to store the webelements of the dropdown and use selectByIndex or selectByValue to select the values in the dropdown
+6) create an object to store the webelements of pincode and city and use sendKeys(Keys.TAB) to move to the next field so that the name of the state will be populated.
+7) find the webelements of post office and phone number
+8) Close the browser
+
+Exercise Five:
+
+1) Launch firefox browser
+2) Open the url "http://demo1.opentaps.org"
+3) Maximize the browser window
+4) Use implicitly wait 
+5) Enter the user name and password
+6) Find the webelement to click on "CRMSFA" link
+7) Find the webelement to click create Lead link
+8) Find the webelements to enter the mandatory fields
+9) Find the webelement to click create lead button
+10) Verify the text using assert text to check whether the lead is created with the correct name.
+
+Exercise Six:
+
+1) Launch the firefox browser
+2) Open the page "google.com"
+3) Maximize the browser window
+4) Use timeout for 30 seconds
+5) Find the webelement using the ID to enter the keyword in the search bar.
+6) use the class List and create a variable to store the results for the keyword using the Tagname
+7) use a for loop and include the statements to display the visible links 
+8) use a if condition within the for loop to fetch the results irrespective of the cases
+9) 
+
+Exercise Seven:
+
+1) Launch the firefox browser
+2) Open the IRCTC website
+3) Maximize the browser window
+4) create an object with the class name List and store the web elements using their tag names with the function driver.findElements
+5) Print the total number of drop down fields using the function objectname.size();
+
+Exercise Three:
+
+1) Declare two integer variables i and j with values 100 and 200 respectively.
+2) Print the statement The even numbers between 100 and 200 are:
+3) use a for loop with the conditions i=100 and i<=j.
+4) use a if statement with the condition i%2 == 0
+5) Print the value of i using system.out.println

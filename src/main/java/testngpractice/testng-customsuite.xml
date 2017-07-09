@@ -1,0 +1,8 @@
+<suite name="Rohith&#039;s bio-data" parallel="classes" thread-count="10">
+  <test verbose="10" name="Rohithwork">
+    <classes>
+      <class name="testngpractice.SeleniumTestNGChapterFour"/>
+      <class name="testngpractice.SeleniumTestNGChapterThree"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Rohith's bio-data -->

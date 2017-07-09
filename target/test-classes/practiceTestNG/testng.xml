@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DefaultSuite">
+<parameter name = "browser"	value = "firefox"/>
+<parameter name = "browserone" value = "chrome"/>
+<groups>
+	<run>
+			<!-- <include name = "smoke"/> -->
+			<!-- <exclude name = "sanity"/> -->
+			<include name = "s.*" />
+	</run>
+</groups>
+  <test verbose = "2" name="Default test">
+  	<classes>
+  		<class name = "practiceTestNG.OpenTapsWrapper"/>
+  		<class name = "practiceTestNG.LeadCreate"/>
+  		<class name = "practiceTestNG.LeadEdit"/>
+  		<class name = "practiceTestNG.LeadDelete"/>
+  		<class name = "practiceTestNG.ContactCreate"/>
+  		<class name = "practiceTestNG.ContactEdit"/>
+  		<class name = "practiceTestNG.ContactDelete"/>
+  	</classes>
+  </test> <!--  -->
+</suite> <!-- DefaultSuite -->

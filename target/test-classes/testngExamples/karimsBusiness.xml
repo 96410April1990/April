@@ -1,0 +1,26 @@
+<suite name="KarimsBusiness suite" verbose="2">
+	<parameter name="discount" value="10" />
+	<groups>
+		<run>
+			<!-- <include name="dinein" /> -->
+			<!-- <exclude name="delivery" /> -->
+			<include name="d.*" />
+		</run>
+	</groups>
+	<test name="JavaJoes" parallel="classes" thread-count="2">
+		<classes>
+			<class name="javajoes.SwatiLifeCycle" />
+			<class name="javajoes.PrashanthLifeCycle" />
+		</classes>
+	</test>
+
+	<test name="K2B" parallel="classes" thread-count="2">
+		<parameter name="Newdiscount" value="5" />
+		<classes>
+			<class name="k2b.ShaheenLifeCycle" />
+			<class name="k2b.IrfanLifeCycle" />
+		</classes>
+
+	</test>
+
+</suite>

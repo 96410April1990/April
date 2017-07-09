@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="KarimBusiness" parallel="tests"
+	thread-count="2">
+
+	<listeners>
+
+		<listener class-name="karimbusiness.PlanB"></listener>
+		<listener class-name="karimbusiness.LootMoney"></listener>
+		<listener class-name="karimbusiness.TheEnd"></listener>
+	</listeners>
+
+	<parameter name="discount" value="10"></parameter>
+	<test name="K2B">
+		<parameter name="briyanidiscount" value="5"></parameter>
+		<classes>
+			<class name="k2b.ShaheenLifeCycle" />
+			<class name="k2b.IrfanLifeCycle" />
+		</classes>
+	</test> <!-- K2B -->
+
+	<test name="JavaJoes">
+		<classes>
+			<class name="javajoes.SwatiLifeCycle" />
+			<class name="javajoes.PrashantLifeCycle" />
+		</classes>
+	</test> <!-- K2B -->
+
+</suite> <!-- KarimBusiness -->

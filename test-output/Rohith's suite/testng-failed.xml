@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" guice-stage="DEVELOPMENT" name="Failed suite [Rohith&#039;s suite]" parallel="tests">
+  <parameter name="password" value="rohithkumar90"/>
+  <parameter name="loginId" value="rohithkumar90@ymail.com"/>
+  <parameter name="loginPassword" value="rohith270419909940096410abcd1990"/>
+  <parameter name="username" value="rohithkumar90@ymail.com"/>
+  <test name="Rohith&#039;s test(failed)" parallel="tests">
+    <parameter name="password" value="rohithkumar90"/>
+    <parameter name="loginId" value="rohithkumar90@ymail.com"/>
+    <parameter name="loginPassword" value="rohith270419909940096410abcd1990"/>
+    <parameter name="username" value="rohithkumar90@ymail.com"/>
+    <classes>
+      <class name="javapracticeone.PracticeMethodsOne">
+        <methods>
+          <include name="runInGrid"/>
+          <include name="selectableRunInGrid"/>
+          <include name="usingParameters"/>
+          <include name="draggableAndDroppable"/>
+          <include name="afterTest"/>
+          <include name="dragAndDrop"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="logintoTwitterUsingParameters" invocation-numbers="0 0"/>
+          <include name="beforeMethod"/>
+          <include name="usingRightClickOne"/>
+          <include name="afterClass"/>
+          <include name="usingRightClick"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- javapracticeone.PracticeMethodsOne -->
+    </classes>
+  </test> <!-- Rohith's test(failed) -->
+</suite> <!-- Failed suite [Rohith's suite] -->
