@@ -10,7 +10,6 @@ public class ClassEight {
 		
 		ArrayList<String> al = new ArrayList<String>();
 		al.add("Rohith");
-		al.add("Lavanya");
 		al.add("Rags");
 		al.add(1,"Sai");
 		System.out.println("Element at position 3:"+al.get(3));

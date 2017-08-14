@@ -14,8 +14,8 @@ public class TreeMapCollections {
 		
 		TreeMap<Integer, String> names = new TreeMap<Integer, String>();
 		names.put(26, "Rohith");
-		names.put(25, "Archana");
-		names.put(24, "Divya");
+		names.put(25, "Sai");
+		names.put(24, "Rags");
 		
 		for (Map.Entry friends : names.entrySet()) {
 			System.out.println(friends.getKey()+" "+friends.getValue());

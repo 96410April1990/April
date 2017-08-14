@@ -10,7 +10,6 @@ public class ClassEleven {
 		
 		HashSet<String> hs = new HashSet<String>();
 		hs.add("Rohith");
-		hs.add("Lavanya");
 		hs.add("Rags");
 		hs.add("Sai");
 		

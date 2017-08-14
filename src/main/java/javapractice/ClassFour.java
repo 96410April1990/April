@@ -11,8 +11,8 @@ public class ClassFour {
 		ArrayList<ClassThree> detailsOne = new ArrayList<ClassThree>();
 		
 		ClassThree a1 = new ClassThree(324049, "Rohith", "Software Engineer", 27);
-		ClassThree a2 = new ClassThree(317115, "Lavanya", "Business Development Analyst", 27);
-		ClassThree a3 = new ClassThree(342105, "Ramya", "Software Engineer", 27);
+		ClassThree a2 = new ClassThree(317115, "Rags", "Business Development Analyst", 27);
+		ClassThree a3 = new ClassThree(342105, "Sai", "Software Engineer", 27);
 		
 		detailsOne.add(a1);
 		detailsOne.add(a2);

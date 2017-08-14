@@ -1,10 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Rohith test Suite" parallel="methods" thread-count="20">
-  <test verbose="2" name="Rohith's test">
-  <parameter name="browser" value="firefox"/>
-    <classes>	
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="practiceTestNG.LeadEdit"/>
+      <class name="testngExamples.OpenTapsTest"/>
+      <class name="testngpractice.SeleniumTestNGChapterFour"/>
+      <class name="threeweekplanselenium.SeleniumScriptTwo"/>
+      <class name="week3.CreateContactWrapper"/>
+      <class name="javapractice.ClassTwo"/>
+      <class name="testngExamples.PrashanthLifeCycle"/>
+      <class name="testngpractice.OpenTaps"/>
+      <class name="week3.MergeAccounts"/>
+      <class name="week3.FindAndEditContact"/>
+      <class name="threeweekplanselenium.SeleniumUsingWrappersOne"/>
+      <class name="testcases.TC03_CreateLead"/>
+      <class name="trainingSelenium.UsingJunit"/>
+      <class name="threeweekplanselenium.SeleniumReadExcelScriptOne"/>
+      <class name="practiceselenium.SampleScriptTwo"/>
+      <class name="testcases.TC06_DeleteLead"/>
+      <class name="javapracticeone.UsingFinalKeywordOne"/>
+      <class name="week5.AppendWorkSheet"/>
+      <class name="testngpractice.TestNGChapterSeven"/>
+      <class name="practiceTestNG.ContactDelete"/>
+      <class name="practiceselenium.SampleScriptOne"/>
+      <class name="week5.LaunchOpenTaps"/>
+      <class name="threeweekplanselenium.SeleniumTestNGOne"/>
+      <class name="practiceselenium.TestNGScriptThree"/>
+      <class name="week3.Demotapsloginwrapper"/>
+      <class name="week3.GoogleHandle"/>
+      <class name="javapracticeone.PracticeFourFIS"/>
+      <class name="testcases.TC02_Login"/>
       <class name="javapracticeone.PracticeMethods"/>
-    </classes>      
-  </test> <!-- Default Test -->
-</suite> <!-- Default Suite -->
+      <class name="week5.UseDataProvider"/>
+      <class name="week5.CreateWorkBookTest"/>
+      <class name="week5.ReadWorkBook"/>
+      <class name="testngpractice.SeleniumTestNGChapterTwo"/>
+      <class name="testngpractice.SeleniumTwitterLoginTestNG"/>
+      <class name="week3.FindPhoneAndDelete"/>
+      <class name="practiceTestNG.LeadDelete"/>
+      <class name="keyword.RunScripts"/>
+      <class name="trainingSelenium.LearningWrappersOne"/>
+      <class name="testngpractice.TestNGChapterSix"/>
+      <class name="practiceselenium.SampleScriptThree"/>
+      <class name="testngExamples.SwatiLifeCycle"/>
+      <class name="trainingSelenium.UsingTestNGChapterTwo"/>
+      <class name="testcases.TC001_Youtube"/>
+      <class name="week3.WrapperLogin"/>
+      <class name="trainingSelenium.OpenTapsLoginTest"/>
+      <class name="testngpractice.TestNGChapterTwo"/>
+      <class name="practiceselenium.TestNGScriptTwo"/>
+      <class name="trainingSelenium.OpenTapsUsingTestNG"/>
+      <class name="javapracticeone.UsingFinalKeyword"/>
+      <class name="practiceTestNG.LeadCreate"/>
+      <class name="practiceTestNG.ContactCreate"/>
+      <class name="testcases.TC01_Login"/>
+      <class name="testcases.TC004_GmailLoginAndLogout"/>
+      <class name="javapracticeone.PracticeMethodsOne"/>
+      <class name="practiceTestNG.ContactEdit"/>
+      <class name="practiceselenium.SampleScriptFour"/>
+      <class name="testcases.TC04_EditLead"/>
+      <class name="testngpractice.TestngAnnotations"/>
+      <class name="testcases.TC01_Linkedin"/>
+      <class name="testngpractice.TestNGChapterFive"/>
+      <class name="javapracticeone.CommonMethods"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

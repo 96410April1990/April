@@ -10,7 +10,7 @@ public class ClassSix {
 		LinkedList<ClassFive> ll = new LinkedList<ClassFive>();
 		
 		ClassFive a1 = new ClassFive(324049, "Rohith", 27);
-		ClassFive a2 = new ClassFive(324050, "Lavanya", 27);
+		ClassFive a2 = new ClassFive(324050, "Sai", 27);
 		
 		ll.add(a1);
 		ll.add(a2);

@@ -17,7 +17,7 @@ public class TreeMapChapterOne {
 
 		TreeMap<Integer, String> friends = new TreeMap<Integer, String>();
 		friends.put(1, "rohith");
-		friends.put(2, "abhinaya");
+		friends.put(2, "sai");
 		friends.put(3, null);
 		friends.put(4, null);
 		

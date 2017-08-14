@@ -51,8 +51,8 @@ public class ClassTwo extends ClassOne implements InterfaceOne {
 		al.add("Rohith");
 		al.add("Rags");
 		al.add("Sai");
-		al.add("Ramya");
-		al.add("Lavanya");
+		al.add("Vaibhav");
+		al.add("Anish");
 		
 		//Traversing through the list using Iterator
 		Iterator itr = al.iterator();
@@ -69,8 +69,8 @@ public class ClassTwo extends ClassOne implements InterfaceOne {
 		al2.add("Rohith");
 		al2.add("Rags");
 		al2.add("Sai");
-		al2.add("Ramya");
-		al2.add("Lavanya");
+		al2.add("Anish");
+		al2.add("Vaibhav");
 		
 		//adding two array lists
 		al.addAll(al2);

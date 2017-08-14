@@ -13,9 +13,8 @@ public class ClassEighteen {
 		Map<Integer, String> mp = new HashMap<Integer, String>();
 		
 		mp.put(1, "Rohith");
-		mp.put(2, "Lavanya");
-		mp.put(3, "Rags");
-		mp.put(4, "Sai");
+		mp.put(2, "Rags");
+		mp.put(3, "Sai");
 		
 		for (Map.Entry m:mp.entrySet()) {
 			System.out.println(m.getKey()+" "+m.getValue());

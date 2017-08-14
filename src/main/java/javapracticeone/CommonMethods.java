@@ -26,7 +26,7 @@ public interface CommonMethods {
 	 * It contains only abstract methods.
 	 * It does not contain the method body.
 	 * It is used to achieve abstraction and multiple inheritance in java.
-	 * It cannot be instantiated. 
+	 * It cannot be instantiated. 	
 	 */
 	
 	@BeforeSuite

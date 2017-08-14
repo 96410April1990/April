@@ -13,9 +13,9 @@ public class ClassTwentySixSorting {
 		ArrayList<String> al = new ArrayList<String>();
 		
 		al.add("Rohith");
-		al.add("Abhinaya");
-		al.add("Ramya");
-		al.add("Lavanya");
+		al.add("Sai");
+		al.add("Rags");
+		al.add("Vaibhav");
 		
 		Collections.sort(al);
 		

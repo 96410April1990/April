@@ -11,7 +11,7 @@ public class ExceptionHandlingTestOne extends ExceptionHandlingProjectWrapper {
 		Thread.sleep(3000);
 		enterValueById("Email", "rohithkumar1990@gmail.com");
 		clickById("next");
-		enterValueById("Passwd", "9940096410abcd1990");
+		enterValueById("Passwd", "rohith");
 		clickById("signIn");
 		clickByLink("Done");
 		

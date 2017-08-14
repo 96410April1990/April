@@ -11,7 +11,7 @@ public class ExerciseOne {
 		
 		System.out.println("The prime numbers between 30 and 45 are:");
 		
-		for(int i=3; i<=limit; i++){
+		for(int i=30; i<=limit; i++){
 			
 			boolean isPrime = true;
 			

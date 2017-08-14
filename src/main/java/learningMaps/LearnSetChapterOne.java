@@ -17,8 +17,8 @@ public class LearnSetChapterOne {
 		
 		Set<String> friends = new LinkedHashSet<String>();
 		friends.add("rohith");
-		friends.add("abhinaya");
-		friends.add("divya");
+		friends.add("rags");
+		friends.add("sai");
 		
 		Iterator<String> itr = friends.iterator();
 		

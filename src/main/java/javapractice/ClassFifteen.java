@@ -15,8 +15,7 @@ public class ClassFifteen {
 		ts.add("Rohith");
 		ts.add("Rags");
 		ts.add("Rohith");
-		ts.add("Lavanya");
-		
+				
 		System.out.println("The size of the tree set is:"+" "+ts.size());
 		
 		Iterator<String> itr = ts.iterator();

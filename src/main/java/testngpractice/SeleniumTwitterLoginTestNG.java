@@ -47,7 +47,7 @@ public class SeleniumTwitterLoginTestNG extends TestNgAnnotations {
 		driver.findElementByXPath("//*[@id='login-dialog-dialog']/div[2]/div[2]/div[2]/form/div[1]/input").clear();
 		driver.findElementByXPath("//*[@id='login-dialog-dialog']/div[2]/div[2]/div[2]/form/div[1]/input").sendKeys("rohithkumar90@ymail.com");
 		driver.findElementByXPath("//*[@id='login-dialog-dialog']/div[2]/div[2]/div[2]/form/div[2]/input").clear();
-		driver.findElementByXPath("//*[@id='login-dialog-dialog']/div[2]/div[2]/div[2]/form/div[2]/input").sendKeys("9940096410abcd1990");
+		driver.findElementByXPath("//*[@id='login-dialog-dialog']/div[2]/div[2]/div[2]/form/div[2]/input").sendKeys("rohith");
 		driver.findElementByXPath("//*[@id='login-dialog-dialog']/div[2]/div[2]/div[2]/form/input[1]").click();
 		Thread.sleep(3000);
 		

@@ -16,8 +16,8 @@ public class LinkedHashMapCollections {
 		LinkedHashMap<Integer, String> age = new LinkedHashMap<Integer, String>();
 		
 		age.put(26, "Rohith");
-		age.put(25, "Ramya");
-		age.put(24, "Divya");
+		age.put(25, "Sai");
+		age.put(24, "Rags");
 		
 		for (Map.Entry names : age.entrySet()) {
 			System.out.println(names.getKey()+" "+names.getValue());

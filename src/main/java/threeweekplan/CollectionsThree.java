@@ -12,7 +12,7 @@ public class CollectionsThree {
 		
 		ArrayList<String> friends = new ArrayList<String>();
 		friends.add("Rohith");
-		friends.add("Ramya");
+		friends.add("Cobie");
 		
 		ArrayList<String> bestfriends = new ArrayList<String>();
 		bestfriends.add("Rags");

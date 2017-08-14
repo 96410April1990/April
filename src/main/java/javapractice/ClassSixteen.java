@@ -15,7 +15,7 @@ public class ClassSixteen {
 		qe.add("Rags");
 		qe.add("Rohith");
 		qe.add("");
-		qe.add("Lavanya");
+		qe.add("Vaibhav");
 		
 		Iterator<String> itr = qe.iterator();
 		while (itr.hasNext()) {

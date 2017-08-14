@@ -11,9 +11,9 @@ public class CollectionsSorting {
 		// TODO Auto-generated method stub
 
 		ArrayList<String> listing = new ArrayList<String>();
-		listing.add("Abhinaya");
-		listing.add("Ruchita");
-		listing.add("Divya");
+		listing.add("Sasha");
+		listing.add("Cobie");
+		listing.add("Margot");
 		
 		Collections.sort(listing);
 		

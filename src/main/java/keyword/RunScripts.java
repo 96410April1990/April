@@ -15,8 +15,8 @@ public class RunScripts extends OpentapsWrappers{
 	@BeforeClass
 	public void startTestCase(){
 		browserName 	= "firefox";
-		testCaseName 	= "TC001 - Login and Logout";
-		testDescription = "Find Lead OpenTaps Using Keyword";	
+		testCaseName 	= "TC001 - Twitter Login";
+		testDescription = "Log into twitter using the given credentials";	
 	}
 
 	@Test
@@ -25,7 +25,7 @@ public class RunScripts extends OpentapsWrappers{
 		CallWrappersUsingKeyword keywords = new CallWrappersUsingKeyword();
 
 		try {
-			FileInputStream fis = new FileInputStream("./Keywords/KeywordDriverOne.xlsx");
+			FileInputStream fis = new FileInputStream("C://Users//NANDAKUMARSIR//April//POM//keywords//KeywordDriver.xlsx");
 			XSSFWorkbook workbook = new XSSFWorkbook(fis);
 			XSSFSheet sheet = workbook.getSheetAt(0);	
 
@@ -38,7 +38,7 @@ public class RunScripts extends OpentapsWrappers{
 					XSSFRow row = sheet.getRow(i);
 					
 					if(row.getCell(3).getStringCellValue().toLowerCase().equals("yes"))
-						keywords.getAndCallKeyword("./keywords/"+row.getCell(1).getStringCellValue()+".xlsx");
+						keywords.getAndCallKeyword("C://Users//NANDAKUMARSIR//April//POM//keywords//"+row.getCell(1).getStringCellValue()+".xlsx");
 
 				} catch (Exception e) {
 					e.printStackTrace();

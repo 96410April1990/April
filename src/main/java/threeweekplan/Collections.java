@@ -38,8 +38,8 @@ public class Collections {
 		}
 		
 		ArrayList<String> newnames = new ArrayList<String>();
-		newnames.add("Abhinaya");
-		newnames.add("Divya");
+		newnames.add("Vinoth");
+		newnames.add("Saba");
 		
 		for (String obj : newnames) {			
 			System.out.println(obj);					

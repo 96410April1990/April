@@ -21,7 +21,7 @@ public class ClassTwentyFourCollections {
 		
 		Thread.sleep(3000);
 		
-		Collections.addAll(al, "Ramya", "Lavanya");
+		Collections.addAll(al, "Vinoth", "Anish");
 		
 		System.out.println(al);
 		

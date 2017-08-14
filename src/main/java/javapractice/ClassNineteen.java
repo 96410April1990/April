@@ -14,9 +14,8 @@ public class ClassNineteen {
 		HashMap<Integer, String> hshmp = new HashMap<Integer, String>();
 		
 		hshmp.put(1, "Rohith");
-		hshmp.put(2, "Lavanya");
-		hshmp.put(3, "Rags");
-		hshmp.put(4, "Sai");
+		hshmp.put(2, "Rags");
+		hshmp.put(3, "Sai");
 		
 		System.out.println(hshmp.size());
 		

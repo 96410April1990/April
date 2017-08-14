@@ -15,7 +15,7 @@ public class ArrayListCollections {
 		friends.add("Rohith");
 		
 		ArrayList<String> newfriends = new ArrayList<String>();
-		newfriends.add("Ramya");
+		newfriends.add("Vaibhav");
 		
 		friends.addAll(newfriends);
 		

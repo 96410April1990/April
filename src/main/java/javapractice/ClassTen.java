@@ -11,7 +11,7 @@ public class ClassTen {
 		List<ClassNine> all = new ArrayList<ClassNine>();
 		
 		ClassNine a1 = new ClassNine("Rohith", 27, "B.Tech", "Software Engineer");
-		ClassNine a2 = new ClassNine("Lavanya", 27, "B.Tech", "Software Engineer");
+		ClassNine a2 = new ClassNine("Sai", 27, "B.Tech", "Software Engineer");
 		
 		all.add(a1);
 		all.add(a2);

@@ -9,7 +9,7 @@ public class GetCharCountUsingMap {
 		// TODO Auto-generated method stub
 		
 		String man = "rohith";
-		String woman = "abhinaya";
+		String woman = "rags";
 		
 		//Converting both the string variables to char variables
 		char[] convMan = man.toCharArray();

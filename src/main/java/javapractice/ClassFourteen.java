@@ -11,8 +11,8 @@ public class ClassFourteen {
 		LinkedHashSet<ClassThirteen> lhs = new LinkedHashSet<ClassThirteen>();
 		
 		ClassThirteen ct1 = new ClassThirteen(324049, "Rohith", 27);
-		ClassThirteen ct2 = new ClassThirteen(324050, "Lavanya", 27);
-		ClassThirteen ct3 = new ClassThirteen(324051, "Ramya", 27);
+		ClassThirteen ct2 = new ClassThirteen(324050, "Rags", 27);
+		ClassThirteen ct3 = new ClassThirteen(324051, "Sai", 27);
 		
 		lhs.add(ct1);
 		lhs.add(ct2);

@@ -10,12 +10,12 @@ public class ClassSeven {
 		
 		ArrayList<String> al = new ArrayList<String>();
 		al.add("Rohith");
-		al.add("Lavanya");
+		al.add("Sai");
 		al.add("Rags");
 		
 		LinkedList<String> ll = new LinkedList<String>();
 		ll.add("Rohith");
-		ll.add("Lavanya");
+		ll.add("Sai");
 		ll.add("Rags");
 		
 		System.out.println("ArrayList:"+" "+al);

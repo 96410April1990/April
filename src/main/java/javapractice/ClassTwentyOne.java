@@ -12,7 +12,7 @@ public class ClassTwentyOne {
 		
 		ht.put(1, "Rohith");
 		//ht.put(null, null);
-		ht.put(2, "Lavanya");
+		ht.put(2, "Vaibhav");
 		ht.put(3, "Sai");
 		//ht.put(4, null);
 		

@@ -31,7 +31,7 @@ public class SeleniumInterfaceFour implements SeleniumInterfaceThree {
 		driver.findElementById("Email").sendKeys("rohithkumar1990@gmail.com");
 		driver.findElementById("next").click();
 		driver.findElementById("Passwd").click();
-		driver.findElementById("Passwd").sendKeys("9940096410abcd1990");
+		driver.findElementById("Passwd").sendKeys("rohith");
 		driver.findElementById("signIn").click();
 		System.out.println("\n"+"Logged in successfully!");
 		Thread.sleep(3000);

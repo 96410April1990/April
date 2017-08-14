@@ -193,7 +193,7 @@ public class PracticeMethods extends CommonWebElements implements CommonMethods 
 			List<String> arrList = new ArrayList<String>();
 			arrList.add("Rohith");
 			arrList.add("Rags");
-			arrList.add("Lavanya");
+			arrList.add("Vaibhav");
 			arrList.add("Sai");
 			System.out.println("The elements in the array list are:"+" ");
 			for (String arrListOne : arrList) {
@@ -288,7 +288,7 @@ public class PracticeMethods extends CommonWebElements implements CommonMethods 
 			driverTwo.findElement(By.xpath(prop.getProperty("twitter.login.username.xpath"))).clear();
 			driverTwo.findElement(By.xpath(prop.getProperty("twitter.login.username.xpath"))).sendKeys("rohithkumar90@ymail.com");
 			driverTwo.findElement(By.xpath(prop.getProperty("twitter.login.password.xpath"))).clear();
-			driverTwo.findElement(By.xpath(prop.getProperty("twitter.login.password.xpath"))).sendKeys("rohith270419909940096410abcd1990");
+			driverTwo.findElement(By.xpath(prop.getProperty("twitter.login.password.xpath"))).sendKeys("rohith");
 			driverTwo.findElement(By.xpath(prop.getProperty("twitter.loginpage.logintwo.xpath"))).click();
 			//Click the profile name in the home page
 			driverTwo.findElement(By.xpath(prop.getProperty("twitter.homepage.clickprofile.xpath"))).click();
@@ -966,7 +966,7 @@ public class PracticeMethods extends CommonWebElements implements CommonMethods 
 		
 		Object[][] data = new Object[2][2];
 		data[0][0] = "Rohith";
-		data[0][1] = "Lavanya";
+		data[0][1] = "Ananya";
 		
 		data[1][0] = "Harsha";
 		data[1][1] = "Tanvi";

@@ -14,7 +14,7 @@ public class ClassTwelve {
 		lhs.add("Rohith");
 		lhs.add("Rohith");
 		lhs.add("Sai");
-		lhs.add("Lavanya");
+		lhs.add("Anish");
 		
 		System.out.println("The size of the linkedhashset is:"+" "+lhs.size());
 		
