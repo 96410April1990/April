@@ -12,6 +12,11 @@ import wrappers.OpentapsWrappers;
 
 public class RunScripts extends OpentapsWrappers{
 
+	/*
+	 *  Run Scripts
+	 * 
+	 */
+	
 	@BeforeClass
 	public void startTestCase(){
 		browserName 	= "firefox";
