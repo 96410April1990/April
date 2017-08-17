@@ -21,8 +21,12 @@ import java.net.URL;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -384,6 +388,75 @@ public class PracticeMethodsOne extends CommonWebElements {
 			FileUtils.copyFile(snap, new File("C:\\Users\\NANDAKUMARSIR\\workspace\\April\\selenium screenshots two\\useExcelInput.jpeg"));
 			System.out.println("Closing the browser right away");
 			driverTwentyOne.quit();
+		}		
+	}
+	
+	@Test(enabled=true, alwaysRun=true, priority=9, dependsOnMethods={"useExcelInput"}, invocationCount=1, description="connecting to DB")
+	public void useDataBase() {
+		java.sql.Connection db_Conn = null;
+		Statement stmt = null;
+		status = FAIL;
+		try {
+			System.out.println("The thread Id of the method usingRightClickOne is:"+" "+Thread.currentThread());
+			Class.forName(postgresql_Jdbc_Driver);
+			db_Conn = DriverManager.getConnection(postgresql_Db_Url, user_name, user_password);
+			stmt = db_Conn.createStatement();
+			String sql_query = "SELECT id, first_name, last_name FROM public.users order by id";
+			ResultSet rs_set = stmt.executeQuery(sql_query);
+			 
+			//Extracting data from the set
+			while (rs_set.next()) {				
+			 int id = rs_set.getInt("id");
+			 String first_name = rs_set.getString("first_name");
+			 String last_name = rs_set.getString("last_name");
+				 
+			//Display the values
+			System.out.println("The ID is:"+" "+id+", "+"the first name is:"+" "+first_name+" "+"and the last name is:"+" "+last_name);		 
+			}
+			rs_set.close();
+			stmt.close();
+			db_Conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+	
+	@Test(enabled=true, priority=10, alwaysRun=true, dependsOnMethods={"useDataBase"}, invocationCount=1, description="Inserting an entry into a table")
+	public void useDataBaseOne() {
+		Connection connOne = null;
+		Statement stmtOne = null;
+		status = FAIL;
+		try {
+			Class.forName(postgresql_Jdbc_Driver);
+			connOne = DriverManager.getConnection(postgresql_Db_Url, user_name, user_password);
+			
+			//Executing a query
+			stmtOne = connOne.createStatement();
+			String sql = "INSERT INTO public.users(id, first_name, last_name, age, date_of_birth) VALUES(324053, 'Sabarethinam', 'Srinivasan', 27, '1989-04-10')";
+			stmtOne.executeUpdate(sql);
+			stmtOne.close();
+			connOne.close();			
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			try {
+				if (stmtOne!=null) {
+					stmtOne.close();
+				} 
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			try {
+				if (connOne!=null) {
+					connOne.close();
+				}
+			} catch (SQLException se) {
+				// TODO: handle exception
+				se.printStackTrace();
+			}
 		}		
 	}
 

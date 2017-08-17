@@ -1,454 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Failed suite [Rohith test Suite]</th></tr><tr><td><a href="#t0">Rohith&apos;s test(failed)</a></td><td class="num">7</td><td class="num attn">1</td><td class="num attn">12</td><td class="num">357,097</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Failed suite [Rohith test Suite]</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Rohith&apos;s test(failed) &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">javapracticeone.PracticeMethods</td><td><a href="#m0">afterSuite</a></td><td rowspan="1">1502968015191</td><td rowspan="1">0</td></tr><tr><th colspan="4">Rohith&apos;s test(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="12">javapracticeone.PracticeMethods</td><td><a href="#m1">closeFrames</a></td><td rowspan="1">1502967896613</td><td rowspan="1">21013</td></tr><tr class="failedeven"><td><a href="#m2">countDropdown</a></td><td rowspan="1">1502967728514</td><td rowspan="1">21009</td></tr><tr class="failedeven"><td><a href="#m3">countFrames</a></td><td rowspan="1">1502967875598</td><td rowspan="1">21007</td></tr><tr class="failedeven"><td><a href="#m4">handlingAlerts</a></td><td rowspan="1">1502967791562</td><td rowspan="1">21002</td></tr><tr class="failedeven"><td><a href="#m5">handlingFrame</a></td><td rowspan="1">1502967812569</td><td rowspan="1">21000</td></tr><tr class="failedeven"><td><a href="#m6">handlingPrompts</a></td><td rowspan="1">1502967833577</td><td rowspan="1">21007</td></tr><tr class="failedeven"><td><a href="#m7">handlingWindows</a></td><td rowspan="1">1502967854591</td><td rowspan="1">21001</td></tr><tr class="failedeven"><td><a href="#m8">printAllLinks</a></td><td rowspan="1">1502967749529</td><td rowspan="1">21017</td></tr><tr class="failedeven"><td><a href="#m9">printLinks</a></td><td rowspan="1">1502967707506</td><td rowspan="1">21002</td></tr><tr class="failedeven"><td><a href="#m10">readContent</a></td><td rowspan="1">1502967917633</td><td rowspan="1">20999</td></tr><tr class="failedeven"><td><a href="#m11">useAllMethods</a></td><td rowspan="1">1502967770551</td><td rowspan="1">21002</td></tr><tr class="failedeven"><td><a href="#m12">usingDropDown</a></td><td rowspan="1">1502967657911</td><td rowspan="1">22392</td></tr><tr><th colspan="4">Rohith&apos;s test(failed) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">javapracticeone.PracticeMethods</td><td><a href="#m13">dataUsingDataProvider</a></td><td rowspan="1">1502968014914</td><td rowspan="1">0</td></tr><tr><th colspan="4">Rohith&apos;s test(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">javapracticeone.PracticeMethods</td><td><a href="#m14">checkPrimeNumber</a></td><td rowspan="1">1502967680329</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m15">fibonacciSeries</a></td><td rowspan="1">1502967686436</td><td rowspan="1">20</td></tr><tr class="passedeven"><td><a href="#m16">printEvenNumber</a></td><td rowspan="1">1502967680336</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m17">starPattern</a></td><td rowspan="1">1502967938643</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m18">useTwitterUsingObjectRepo</a></td><td rowspan="1">1502967686481</td><td rowspan="1">21021</td></tr><tr class="passedeven"><td><a href="#m19">usingLoops</a></td><td rowspan="1">1502967680348</td><td rowspan="1">6004</td></tr><tr class="passedeven"><td><a href="#m20">usingWrapperMethods</a></td><td rowspan="1">1502967938646</td><td rowspan="1">76249</td></tr></tbody></table><h2>Rohith&apos;s test(failed)</h2><h3 id="m0">javapracticeone.PracticeMethods#afterSuite</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at javapracticeone.PracticeMethods.afterSuite(PracticeMethods.java:1041)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">javapracticeone.PracticeMethods#closeFrames</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated by org.testng.reporters.JUnitXMLReporter -->
+<testsuite hostname="NANDAKUMARSIR-D" name="Rohith&#039;s test(failed)" tests="20" failures="12" timestamp="17 Aug 2017 11:06:55 GMT" time="357.097" errors="0">
+  <testcase name="usingDropDown" time="22.392" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.closeFrames(PracticeMethods.java:796)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">javapracticeone.PracticeMethods#countDropdown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.countDropdown(PracticeMethods.java:385)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">javapracticeone.PracticeMethods#countFrames</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.countFrames(PracticeMethods.java:750)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">javapracticeone.PracticeMethods#handlingAlerts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.handlingAlerts(PracticeMethods.java:505)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">javapracticeone.PracticeMethods#handlingFrame</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.handlingFrame(PracticeMethods.java:546)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">javapracticeone.PracticeMethods#handlingPrompts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.handlingPrompts(PracticeMethods.java:597)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">javapracticeone.PracticeMethods#handlingWindows</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.handlingWindows(PracticeMethods.java:667)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">javapracticeone.PracticeMethods#printAllLinks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.printAllLinks(PracticeMethods.java:420)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">javapracticeone.PracticeMethods#printLinks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.printLinks(PracticeMethods.java:326)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">javapracticeone.PracticeMethods#readContent</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.readContent(PracticeMethods.java:850)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">javapracticeone.PracticeMethods#useAllMethods</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.useAllMethods(PracticeMethods.java:458)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">javapracticeone.PracticeMethods#usingDropDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
 	at javapracticeone.PracticeMethods.usingDropDown(PracticeMethods.java:72)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
@@ -483,22 +48,28 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
 	... 29 more
-... Removed 7 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">javapracticeone.PracticeMethods#dataUsingDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Method public void javapracticeone.PracticeMethods.dataUsingDataProvider(java.lang.String,java.lang.String) throws java.io.IOException requires a @DataProvider named : useData
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 7 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">javapracticeone.PracticeMethods#checkPrimeNumber</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m15">javapracticeone.PracticeMethods#fibonacciSeries</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m16">javapracticeone.PracticeMethods#printEvenNumber</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m17">javapracticeone.PracticeMethods#starPattern</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m18">javapracticeone.PracticeMethods#useTwitterUsingObjectRepo</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;NANDAKUMARSIR-D&apos;, ip: &apos;10.229.70.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0&apos;
+... Removed 7 stack frames]]>
+    </failure>
+  </testcase> <!-- usingDropDown -->
+  <testcase name="checkPrimeNumber" time="0.003" classname="javapracticeone.PracticeMethods"/>
+  <testcase name="printEvenNumber" time="0.006" classname="javapracticeone.PracticeMethods"/>
+  <testcase name="usingLoops" time="6.004" classname="javapracticeone.PracticeMethods"/>
+  <testcase name="fibonacciSeries" time="0.02" classname="javapracticeone.PracticeMethods"/>
+  <testcase name="useTwitterUsingObjectRepo" time="21.021" classname="javapracticeone.PracticeMethods"/>
+  <testcase name="printLinks" time="21.002" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.useTwitterUsingObjectRepo(PracticeMethods.java:277)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.printLinks(PracticeMethods.java:326)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
@@ -517,7 +88,7 @@ Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.3
 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 16 more
+	... 17 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
@@ -529,5 +100,493 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.Socket.connect(Unknown Source)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 29 more
-... Removed 7 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m19">javapracticeone.PracticeMethods#usingLoops</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m20">javapracticeone.PracticeMethods#usingWrapperMethods</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- printLinks -->
+  <testcase name="countDropdown" time="21.009" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.countDropdown(PracticeMethods.java:385)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- countDropdown -->
+  <testcase name="printAllLinks" time="21.017" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.printAllLinks(PracticeMethods.java:420)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- printAllLinks -->
+  <testcase name="useAllMethods" time="21.002" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.useAllMethods(PracticeMethods.java:458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- useAllMethods -->
+  <testcase name="handlingAlerts" time="21.002" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.handlingAlerts(PracticeMethods.java:505)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- handlingAlerts -->
+  <testcase name="handlingFrame" time="21.0" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.handlingFrame(PracticeMethods.java:546)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- handlingFrame -->
+  <testcase name="handlingPrompts" time="21.007" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.handlingPrompts(PracticeMethods.java:597)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- handlingPrompts -->
+  <testcase name="handlingWindows" time="21.001" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.handlingWindows(PracticeMethods.java:667)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- handlingWindows -->
+  <testcase name="countFrames" time="21.007" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.countFrames(PracticeMethods.java:750)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- countFrames -->
+  <testcase name="closeFrames" time="21.013" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.closeFrames(PracticeMethods.java:796)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- closeFrames -->
+  <testcase name="readContent" time="20.999" classname="javapracticeone.PracticeMethods">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &amp;apos;2.53.1&amp;apos;, revision: &amp;apos;a36b8b1&amp;apos;, time: &amp;apos;2016-06-30 17:37:03&amp;apos;
+System info: host: &amp;apos;NANDAKUMARSIR-D&amp;apos;, ip: &amp;apos;10.229.70.103&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at javapracticeone.PracticeMethods.readContent(PracticeMethods.java:850)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase> <!-- readContent -->
+  <testcase name="starPattern" time="0.0" classname="javapracticeone.PracticeMethods"/>
+  <testcase name="usingWrapperMethods" time="76.249" classname="javapracticeone.PracticeMethods"/>
+  <testcase name="dataUsingDataProvider" time="0.0" classname="javapracticeone.PracticeMethods">
+    <skipped/>
+  </testcase> <!-- dataUsingDataProvider -->
+</testsuite> <!-- Rohith's test(failed) -->

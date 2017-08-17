@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" verbose="1">
-  <test name="Test">
+  <test name="Rohith Test">
     <classes>
-    	<class name="keyword.RunScripts"></class>
+    	<class name="javapracticeone.PracticeMethods"></class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="RohithOne Test">
+    <classes>
+    	<class name="javapracticeone.PracticeMethodsOne"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

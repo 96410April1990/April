@@ -21,4 +21,10 @@ public class GlobalVariables extends WrapperProject {
 	public static int PAUSE_TWO_MILLI_SECOND = 2000;
 	public static int PAUSE_THREE_MILLI_SECOND = 3000;
 	
+	//DB details
+	static final String postgresql_Jdbc_Driver = "org.postgresql.Driver";
+	static final String postgresql_Db_Url = "jdbc:postgresql://localhost:5432/Rohith_database";
+	static final String user_name = "postgres";
+	static final String user_password = "rohith27041990";
+	
 }

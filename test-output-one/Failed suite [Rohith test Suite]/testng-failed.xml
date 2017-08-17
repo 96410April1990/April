@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Rohith test Suite]]" parallel="methods">
+  <parameter name="browser" value="firefox"/>
+  <test name="Rohith&#039;s test(failed)(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="javapracticeone.PracticeMethods">
+        <methods>
+          <include name="countFrames"/>
+          <include name="beforeClass"/>
+          <include name="dataUsingDataProvider"/>
+          <include name="usingLoops"/>
+          <include name="starPattern"/>
+          <include name="useTwitterUsingObjectRepo"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="printEvenNumber"/>
+          <include name="closeFrames"/>
+          <include name="usingDropDown"/>
+          <include name="afterTest"/>
+          <include name="handlingFrame"/>
+          <include name="usingWrapperMethods"/>
+          <include name="afterMethod"/>
+          <include name="handlingAlerts"/>
+          <include name="printLinks"/>
+          <include name="afterSuite"/>
+          <include name="handlingWindows"/>
+          <include name="countDropdown"/>
+          <include name="useAllMethods"/>
+          <include name="readContent"/>
+          <include name="checkPrimeNumber"/>
+          <include name="handlingPrompts"/>
+          <include name="beforeSuite"/>
+          <include name="fibonacciSeries"/>
+          <include name="printAllLinks"/>
+        </methods>
+      </class> <!-- javapracticeone.PracticeMethods -->
+    </classes>
+  </test> <!-- Rohith's test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Rohith test Suite]] -->

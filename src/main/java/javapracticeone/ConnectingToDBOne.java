@@ -27,7 +27,7 @@ public class ConnectingToDBOne {
 			
 			//Executing a query
 			stmt = conn.createStatement();
-			String sql = "INSERT INTO public.users(id, first_name, last_name, age, date_of_birth) VALUES(324052, 'Vaibhav', 'Raj', 27, '1989-05-15')";
+			String sql = "INSERT INTO public.users(id, first_name, last_name, age, date_of_birth) VALUES(324053, 'Sabarethinam', 'Srinivasan', 27, '1989-04-10')";
 			stmt.executeUpdate(sql);
 			stmt.close();
 			conn.close();			

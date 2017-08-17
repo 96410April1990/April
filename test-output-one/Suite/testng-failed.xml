@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Rohith Test(failed)">
+    <classes>
+      <class name="javapracticeone.PracticeMethodsOne">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- javapracticeone.PracticeMethodsOne -->
+      <class name="javapracticeone.PracticeMethods">
+        <methods>
+          <include name="countFrames"/>
+          <include name="beforeClass"/>
+          <include name="dataUsingDataProvider"/>
+          <include name="usingLoops"/>
+          <include name="starPattern"/>
+          <include name="useTwitterUsingObjectRepo"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="printEvenNumber"/>
+          <include name="closeFrames"/>
+          <include name="usingDropDown"/>
+          <include name="afterTest"/>
+          <include name="handlingFrame"/>
+          <include name="usingWrapperMethods"/>
+          <include name="afterMethod"/>
+          <include name="handlingAlerts"/>
+          <include name="printLinks"/>
+          <include name="afterSuite"/>
+          <include name="handlingWindows"/>
+          <include name="countDropdown"/>
+          <include name="useAllMethods"/>
+          <include name="readContent"/>
+          <include name="checkPrimeNumber"/>
+          <include name="handlingPrompts"/>
+          <include name="beforeSuite"/>
+          <include name="fibonacciSeries"/>
+          <include name="printAllLinks"/>
+        </methods>
+      </class> <!-- javapracticeone.PracticeMethods -->
+    </classes>
+  </test> <!-- Rohith Test(failed) -->
+  <test name="RohithOne Test(failed)">
+    <classes>
+      <class name="javapracticeone.PracticeMethodsOne">
+        <methods>
+          <include name="runInGrid"/>
+          <include name="selectableRunInGrid"/>
+          <include name="usingParameters"/>
+          <include name="useExcelInput"/>
+          <include name="draggableAndDroppable"/>
+          <include name="afterTest"/>
+          <include name="dragAndDrop"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="logintoTwitterUsingParameters"/>
+          <include name="beforeMethod"/>
+          <include name="usingRightClickOne"/>
+          <include name="afterClass"/>
+          <include name="usingRightClick"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- javapracticeone.PracticeMethodsOne -->
+      <class name="javapracticeone.PracticeMethods">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- javapracticeone.PracticeMethods -->
+    </classes>
+  </test> <!-- RohithOne Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
