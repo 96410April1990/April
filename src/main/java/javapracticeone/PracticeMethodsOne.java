@@ -422,7 +422,7 @@ public class PracticeMethodsOne extends CommonWebElements {
 		}
 	}
 	
-	@Test(enabled=true, priority=10, alwaysRun=true, dependsOnMethods={"useDataBase"}, invocationCount=1, description="Inserting an entry into a table")
+	@Test(enabled=true, priority=10, alwaysRun=true, dependsOnMethods={"useDataBase"}, invocationCount=1, description="Inserting an entry into a table in the DB")
 	public void useDataBaseOne() {
 		Connection connOne = null;
 		Statement stmtOne = null;
