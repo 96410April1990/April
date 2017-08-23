@@ -63,6 +63,7 @@ public class CommonWebElements extends CommonVariables {
 	protected static String twitterLogoutBtnXpath = "/html/body/div[2]/div[1]/div[2]/div/div/div[3]/ul/li[1]/a";
 	protected static String twitterLogoutBtnOneXpath = "/html/body/div[2]/div[1]/div[2]/div/div/div[3]/ul/li[1]/div/ul/li[13]/button";
 	protected static String twitterLogoutPageXpath = "/html/body/div[2]/div[1]/div/div/div/div/ul[2]/li/a/small";
+	protected static String twitterInvalidCredentialsMsgXpath = "/html/body/div[2]/div/div/span";
 	
 	//Relative xpath
 	
