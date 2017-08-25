@@ -5,7 +5,7 @@
 	<parameter name="username" value="rohithkumar90@ymail.com"/>
 	<parameter name="password" value="rohithkumar90"/>
 	<parameter name="loginId" value="rohithkumar90@ymail.com"/>
-	<parameter name="loginPassword" value="rohith270419909940096410abcd1990"/>
+	<parameter name="loginPassword" value="rohith"/>
     <classes>
       <class name="javapracticeone.PracticeMethodsOne"/>
     </classes>
