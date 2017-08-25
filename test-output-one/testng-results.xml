@@ -1,74 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="12" total="20" passed="7">
+<testng-results skipped="0" failed="7" total="12" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Rohith test Suite]" duration-ms="357097" started-at="2017-08-17T11:00:57Z" finished-at="2017-08-17T11:06:54Z">
+  <suite name="Rohith&#039;s suite" duration-ms="294719" started-at="2017-08-25T17:44:56Z" finished-at="2017-08-25T17:49:51Z">
     <groups>
-      <group name="group2">
-        <method signature="PracticeMethods.usingDropDown()[pri:1, instance:javapracticeone.PracticeMethods@a48474]" name="usingDropDown" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.printEvenNumber()[pri:3, instance:javapracticeone.PracticeMethods@a48474]" name="printEvenNumber" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.printLinks()[pri:7, instance:javapracticeone.PracticeMethods@a48474]" name="printLinks" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.printAllLinks()[pri:9, instance:javapracticeone.PracticeMethods@a48474]" name="printAllLinks" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.handlingAlerts()[pri:11, instance:javapracticeone.PracticeMethods@a48474]" name="handlingAlerts" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.handlingPrompts()[pri:13, instance:javapracticeone.PracticeMethods@a48474]" name="handlingPrompts" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.countFrames()[pri:15, instance:javapracticeone.PracticeMethods@a48474]" name="countFrames" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.readContent()[pri:17, instance:javapracticeone.PracticeMethods@a48474]" name="readContent" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.usingWrapperMethods()[pri:19, instance:javapracticeone.PracticeMethods@a48474]" name="usingWrapperMethods" class="javapracticeone.PracticeMethods"/>
-      </group> <!-- group2 -->
-      <group name="group1">
-        <method signature="PracticeMethods.checkPrimeNumber()[pri:2, instance:javapracticeone.PracticeMethods@a48474]" name="checkPrimeNumber" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.usingLoops()[pri:4, instance:javapracticeone.PracticeMethods@a48474]" name="usingLoops" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.fibonacciSeries()[pri:5, instance:javapracticeone.PracticeMethods@a48474]" name="fibonacciSeries" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.useTwitterUsingObjectRepo()[pri:6, instance:javapracticeone.PracticeMethods@a48474]" name="useTwitterUsingObjectRepo" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.countDropdown()[pri:8, instance:javapracticeone.PracticeMethods@a48474]" name="countDropdown" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.useAllMethods()[pri:10, instance:javapracticeone.PracticeMethods@a48474]" name="useAllMethods" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.handlingFrame()[pri:12, instance:javapracticeone.PracticeMethods@a48474]" name="handlingFrame" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.handlingWindows()[pri:14, instance:javapracticeone.PracticeMethods@a48474]" name="handlingWindows" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.closeFrames()[pri:16, instance:javapracticeone.PracticeMethods@a48474]" name="closeFrames" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.starPattern()[pri:18, instance:javapracticeone.PracticeMethods@a48474]" name="starPattern" class="javapracticeone.PracticeMethods"/>
-        <method signature="PracticeMethods.dataUsingDataProvider(java.lang.String, java.lang.String)[pri:20, instance:javapracticeone.PracticeMethods@a48474]" name="dataUsingDataProvider" class="javapracticeone.PracticeMethods"/>
-      </group> <!-- group1 -->
     </groups>
-    <test name="Rohith&#039;s test(failed)" duration-ms="357097" started-at="2017-08-17T11:00:57Z" finished-at="2017-08-17T11:06:54Z">
-      <class name="javapracticeone.PracticeMethods">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2017-08-17T16:30:57Z" finished-at="2017-08-17T16:30:57Z">
+    <test name="Rohith&#039;s test" duration-ms="294719" started-at="2017-08-25T17:44:56Z" finished-at="2017-08-25T17:49:51Z">
+      <class name="javapracticeone.PracticeMethodsOne">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeSuite" is-config="true" duration-ms="162" started-at="2017-08-25T23:14:56Z" finished-at="2017-08-25T23:14:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-08-17T16:30:57Z" finished-at="2017-08-17T16:30:57Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-08-25T23:14:56Z" finished-at="2017-08-25T23:14:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-08-17T16:30:57Z" finished-at="2017-08-17T16:30:57Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-08-25T23:14:56Z" finished-at="2017-08-25T23:14:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="usingDropDown()[pri:1, instance:javapracticeone.PracticeMethods@a48474]" name="usingDropDown" duration-ms="22392" started-at="2017-08-17T16:30:57Z" description="Interacting with drop down" finished-at="2017-08-17T16:31:20Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:14:56Z" finished-at="2017-08-25T23:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dragAndDrop()[pri:1, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="dragAndDrop" duration-ms="100303" started-at="2017-08-25T23:14:56Z" description="drag and drop an element" finished-at="2017-08-25T23:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:16:37Z" finished-at="2017-08-25T23:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-25T23:16:37Z" finished-at="2017-08-25T23:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="usingRightClick()[pri:2, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="usingRightClick" duration-ms="39084" started-at="2017-08-25T23:16:37Z" description="using right click" depends-on-methods="javapracticeone.PracticeMethodsOne.dragAndDrop" finished-at="2017-08-25T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingRightClick -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-25T23:17:16Z" finished-at="2017-08-25T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:17:16Z" finished-at="2017-08-25T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="runInGrid()[pri:3, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="runInGrid" duration-ms="21004" started-at="2017-08-25T23:17:16Z" description="Running in Grid" depends-on-methods="javapracticeone.PracticeMethodsOne.usingRightClick" finished-at="2017-08-25T23:17:37Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.usingDropDown(PracticeMethods.java:72)
+	at javapracticeone.PracticeMethodsOne.runInGrid(PracticeMethodsOne.java:146)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
@@ -88,7 +100,7 @@ Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.3
 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 16 more
+	... 24 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
@@ -100,75 +112,47 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.Socket.connect(Unknown Source)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 29 more
+	... 37 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- usingDropDown -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:31:20Z" finished-at="2017-08-17T16:31:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="checkPrimeNumber()[pri:2, instance:javapracticeone.PracticeMethods@a48474]" name="checkPrimeNumber" duration-ms="3" started-at="2017-08-17T16:31:20Z" description="Java program to find out whether a number is prime or not" depends-on-methods="javapracticeone.PracticeMethods.usingDropDown" finished-at="2017-08-17T16:31:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkPrimeNumber -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:31:20Z" finished-at="2017-08-17T16:31:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="printEvenNumber()[pri:3, instance:javapracticeone.PracticeMethods@a48474]" name="printEvenNumber" duration-ms="6" started-at="2017-08-17T16:31:20Z" description="To print the even numbers between 100 and 200" depends-on-methods="javapracticeone.PracticeMethods.checkPrimeNumber" finished-at="2017-08-17T16:31:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printEvenNumber -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:31:20Z" finished-at="2017-08-17T16:31:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="usingLoops()[pri:4, instance:javapracticeone.PracticeMethods@a48474]" name="usingLoops" duration-ms="6004" started-at="2017-08-17T16:31:20Z" description="Using various types of loops" depends-on-methods="javapracticeone.PracticeMethods.printEvenNumber" finished-at="2017-08-17T16:31:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- usingLoops -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:31:26Z" finished-at="2017-08-17T16:31:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="fibonacciSeries()[pri:5, instance:javapracticeone.PracticeMethods@a48474]" name="fibonacciSeries" duration-ms="20" started-at="2017-08-17T16:31:26Z" description="Fibonacci series" depends-on-methods="javapracticeone.PracticeMethods.usingLoops" finished-at="2017-08-17T16:31:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fibonacciSeries -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:31:26Z" finished-at="2017-08-17T16:31:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="useTwitterUsingObjectRepo()[pri:6, instance:javapracticeone.PracticeMethods@a48474]" name="useTwitterUsingObjectRepo" duration-ms="21021" started-at="2017-08-17T16:31:26Z" description="Access twitter using object repository" depends-on-methods="javapracticeone.PracticeMethods.fibonacciSeries" finished-at="2017-08-17T16:31:47Z">
+        </test-method> <!-- runInGrid -->
+        <test-method status="FAIL" signature="draggableAndDroppable()[pri:4, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="draggableAndDroppable" duration-ms="21008" started-at="2017-08-25T23:17:37Z" description="draggable and droppable" depends-on-methods="javapracticeone.PracticeMethodsOne.runInGrid" finished-at="2017-08-25T23:17:58Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.useTwitterUsingObjectRepo(PracticeMethods.java:277)
+	at javapracticeone.PracticeMethodsOne.draggableAndDroppable(PracticeMethodsOne.java:179)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
@@ -188,7 +172,7 @@ Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.3
 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 16 more
+	... 24 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
@@ -200,35 +184,47 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.Socket.connect(Unknown Source)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 29 more
+	... 37 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- useTwitterUsingObjectRepo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:31:47Z" finished-at="2017-08-17T16:31:47Z">
+        </test-method> <!-- draggableAndDroppable -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:17:37Z" finished-at="2017-08-25T23:17:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="printLinks()[pri:7, instance:javapracticeone.PracticeMethods@a48474]" name="printLinks" duration-ms="21002" started-at="2017-08-17T16:31:47Z" description="Printing the links with your name" depends-on-methods="javapracticeone.PracticeMethods.useTwitterUsingObjectRepo" finished-at="2017-08-17T16:32:08Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:17:37Z" finished-at="2017-08-25T23:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:17:58Z" finished-at="2017-08-25T23:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:17:58Z" finished-at="2017-08-25T23:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="selectableRunInGrid()[pri:4, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="selectableRunInGrid" duration-ms="21006" started-at="2017-08-25T23:17:58Z" description="selectable using grid" depends-on-methods="javapracticeone.PracticeMethodsOne.draggableAndDroppable" finished-at="2017-08-25T23:18:19Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.printLinks(PracticeMethods.java:326)
+	at javapracticeone.PracticeMethodsOne.selectableRunInGrid(PracticeMethodsOne.java:212)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -239,6 +235,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
@@ -257,7 +260,7 @@ Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.3
 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
+	... 24 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
@@ -269,35 +272,71 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.Socket.connect(Unknown Source)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
+	... 37 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printLinks -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:32:08Z" finished-at="2017-08-17T16:32:08Z">
+        </test-method> <!-- selectableRunInGrid -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:18:19Z" finished-at="2017-08-25T23:18:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="countDropdown()[pri:8, instance:javapracticeone.PracticeMethods@a48474]" name="countDropdown" duration-ms="21009" started-at="2017-08-17T16:32:08Z" description="counting the number of dropdown entries in the page" depends-on-methods="javapracticeone.PracticeMethods.printLinks" finished-at="2017-08-17T16:32:29Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-25T23:18:19Z" finished-at="2017-08-25T23:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="usingParameters(java.lang.String, java.lang.String)[pri:5, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="usingParameters" duration-ms="1" started-at="2017-08-25T23:18:19Z" description="using parameters" depends-on-methods="javapracticeone.PracticeMethodsOne.selectableRunInGrid" finished-at="2017-08-25T23:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohithkumar90@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rohithkumar90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingParameters -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-25T23:18:19Z" finished-at="2017-08-25T23:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="logintoTwitterUsingParameters(java.lang.String, java.lang.String)[pri:6, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="logintoTwitterUsingParameters" duration-ms="21009" started-at="2017-08-25T23:18:19Z" description="logging into twitter using parameters" depends-on-methods="javapracticeone.PracticeMethodsOne.usingParameters" finished-at="2017-08-25T23:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohithkumar90@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rohith270419909940096410abcd1990]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.countDropdown(PracticeMethods.java:385)
+	at javapracticeone.PracticeMethodsOne.logintoTwitterUsingParameters(PracticeMethodsOne.java:275)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -308,6 +347,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
@@ -326,7 +372,7 @@ Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.3
 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
+	... 24 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
@@ -338,35 +384,55 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.Socket.connect(Unknown Source)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
+	... 37 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- countDropdown -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:32:29Z" finished-at="2017-08-17T16:32:29Z">
+        </test-method> <!-- logintoTwitterUsingParameters -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:18:19Z" finished-at="2017-08-25T23:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:18:40Z" finished-at="2017-08-25T23:18:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="printAllLinks()[pri:9, instance:javapracticeone.PracticeMethods@a48474]" name="printAllLinks" duration-ms="21017" started-at="2017-08-17T16:32:29Z" description="print all the links in google.com" depends-on-methods="javapracticeone.PracticeMethods.countDropdown" finished-at="2017-08-17T16:32:50Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-25T23:18:40Z" finished-at="2017-08-25T23:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="logintoTwitterUsingParameters(java.lang.String, java.lang.String)[pri:6, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="logintoTwitterUsingParameters" duration-ms="21010" started-at="2017-08-25T23:18:40Z" description="logging into twitter using parameters" depends-on-methods="javapracticeone.PracticeMethodsOne.usingParameters" finished-at="2017-08-25T23:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohithkumar90@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rohith270419909940096410abcd1990]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.printAllLinks(PracticeMethods.java:420)
+	at javapracticeone.PracticeMethodsOne.logintoTwitterUsingParameters(PracticeMethodsOne.java:275)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -377,6 +443,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
@@ -395,7 +468,7 @@ Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.3
 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
+	... 24 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
@@ -407,35 +480,39 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.Socket.connect(Unknown Source)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
+	... 37 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printAllLinks -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:32:50Z" finished-at="2017-08-17T16:32:50Z">
+        </test-method> <!-- logintoTwitterUsingParameters -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:01Z" finished-at="2017-08-25T23:19:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="useAllMethods()[pri:10, instance:javapracticeone.PracticeMethods@a48474]" name="useAllMethods" duration-ms="21002" started-at="2017-08-17T16:32:50Z" description="using all methods" depends-on-methods="javapracticeone.PracticeMethods.printAllLinks" finished-at="2017-08-17T16:33:11Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:01Z" finished-at="2017-08-25T23:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="usingRightClickOne()[pri:7, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="usingRightClickOne" duration-ms="21031" started-at="2017-08-25T23:19:01Z" description="using right click one" depends-on-methods="javapracticeone.PracticeMethodsOne.logintoTwitterUsingParameters" finished-at="2017-08-25T23:19:22Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.useAllMethods(PracticeMethods.java:458)
+	at javapracticeone.PracticeMethodsOne.usingRightClickOne(PracticeMethodsOne.java:319)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -446,6 +523,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
@@ -464,7 +548,7 @@ Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.3
 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
+	... 24 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
@@ -476,35 +560,35 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.Socket.connect(Unknown Source)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
+	... 37 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- useAllMethods -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:33:11Z" finished-at="2017-08-17T16:33:11Z">
+        </test-method> <!-- usingRightClickOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:22Z" finished-at="2017-08-25T23:19:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="handlingAlerts()[pri:11, instance:javapracticeone.PracticeMethods@a48474]" name="handlingAlerts" duration-ms="21002" started-at="2017-08-17T16:33:11Z" description="Handling alerts" depends-on-methods="javapracticeone.PracticeMethods.useAllMethods" finished-at="2017-08-17T16:33:32Z">
+        <test-method status="FAIL" signature="useExcelInput()[pri:8, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="useExcelInput" duration-ms="21009" started-at="2017-08-25T23:19:22Z" description="read data from excel sheet" depends-on-methods="javapracticeone.PracticeMethodsOne.usingRightClickOne" finished-at="2017-08-25T23:19:43Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'NANDAKUMARSIR-D', ip: '10.229.62.245', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.handlingAlerts(PracticeMethods.java:505)
+	at javapracticeone.PracticeMethodsOne.useExcelInput(PracticeMethodsOne.java:355)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -515,6 +599,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
@@ -533,7 +624,7 @@ Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.3
 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
+	... 24 more
 Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
@@ -545,510 +636,58 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.net.Socket.connect(Unknown Source)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
+	... 37 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handlingAlerts -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:33:32Z" finished-at="2017-08-17T16:33:32Z">
+        </test-method> <!-- useExcelInput -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:22Z" finished-at="2017-08-25T23:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:43Z" finished-at="2017-08-25T23:19:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="handlingFrame()[pri:12, instance:javapracticeone.PracticeMethods@a48474]" name="handlingFrame" duration-ms="21000" started-at="2017-08-17T16:33:32Z" description="handling frames" depends-on-methods="javapracticeone.PracticeMethods.handlingAlerts" finished-at="2017-08-17T16:33:53Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.handlingFrame(PracticeMethods.java:546)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        <test-method status="PASS" signature="useDataBase()[pri:9, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="useDataBase" duration-ms="7453" started-at="2017-08-25T23:19:43Z" description="connecting to DB" depends-on-methods="javapracticeone.PracticeMethodsOne.useExcelInput" finished-at="2017-08-25T23:19:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handlingFrame -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:33:53Z" finished-at="2017-08-17T16:33:53Z">
+        </test-method> <!-- useDataBase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:43Z" finished-at="2017-08-25T23:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:50Z" finished-at="2017-08-25T23:19:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="handlingPrompts()[pri:13, instance:javapracticeone.PracticeMethods@a48474]" name="handlingPrompts" duration-ms="21007" started-at="2017-08-17T16:33:53Z" description="Handling prompts" depends-on-methods="javapracticeone.PracticeMethods.handlingFrame" finished-at="2017-08-17T16:34:14Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.handlingPrompts(PracticeMethods.java:597)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:50Z" finished-at="2017-08-25T23:19:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handlingPrompts -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:34:14Z" finished-at="2017-08-17T16:34:14Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="useDataBaseOne()[pri:10, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="useDataBaseOne" duration-ms="609" started-at="2017-08-25T23:19:50Z" description="Inserting an entry into a table in the DB" depends-on-methods="javapracticeone.PracticeMethodsOne.useDataBase" finished-at="2017-08-25T23:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useDataBaseOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:51Z" finished-at="2017-08-25T23:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="handlingWindows()[pri:14, instance:javapracticeone.PracticeMethods@a48474]" name="handlingWindows" duration-ms="21001" started-at="2017-08-17T16:34:14Z" description="Handling windows" depends-on-methods="javapracticeone.PracticeMethods.handlingPrompts" finished-at="2017-08-17T16:34:35Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.handlingWindows(PracticeMethods.java:667)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlingWindows -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:34:35Z" finished-at="2017-08-17T16:34:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="countFrames()[pri:15, instance:javapracticeone.PracticeMethods@a48474]" name="countFrames" duration-ms="21007" started-at="2017-08-17T16:34:35Z" description="Counting the number of frames in a webpage" depends-on-methods="javapracticeone.PracticeMethods.handlingWindows" finished-at="2017-08-17T16:34:56Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.countFrames(PracticeMethods.java:750)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- countFrames -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:34:56Z" finished-at="2017-08-17T16:34:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="closeFrames()[pri:16, instance:javapracticeone.PracticeMethods@a48474]" name="closeFrames" duration-ms="21013" started-at="2017-08-17T16:34:56Z" description="closing the frames in the web page" depends-on-methods="javapracticeone.PracticeMethods.countFrames" finished-at="2017-08-17T16:35:17Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.closeFrames(PracticeMethods.java:796)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeFrames -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:35:17Z" finished-at="2017-08-17T16:35:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="readContent()[pri:17, instance:javapracticeone.PracticeMethods@a48474]" name="readContent" duration-ms="20999" started-at="2017-08-17T16:35:17Z" description="read the content within a frame" depends-on-methods="javapracticeone.PracticeMethods.closeFrames" finished-at="2017-08-17T16:35:38Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'NANDAKUMARSIR-D', ip: '10.229.70.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at javapracticeone.PracticeMethods.readContent(PracticeMethods.java:850)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.228.25.31:4444 [/10.228.25.31] failed: Connection timed out: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readContent -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:35:38Z" finished-at="2017-08-17T16:35:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="starPattern()[pri:18, instance:javapracticeone.PracticeMethods@a48474]" name="starPattern" duration-ms="0" started-at="2017-08-17T16:35:38Z" description="print stars" depends-on-methods="javapracticeone.PracticeMethods.readContent" finished-at="2017-08-17T16:35:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- starPattern -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-17T16:35:38Z" finished-at="2017-08-17T16:35:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="usingWrapperMethods()[pri:19, instance:javapracticeone.PracticeMethods@a48474]" name="usingWrapperMethods" duration-ms="76249" started-at="2017-08-17T16:35:38Z" description="using wrapper methods" depends-on-methods="javapracticeone.PracticeMethods.starPattern" finished-at="2017-08-17T16:36:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- usingWrapperMethods -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-17T16:36:54Z" finished-at="2017-08-17T16:36:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method name="dataUsingDataProvider" signature="dataUsingDataProvider(java.lang.String, java.lang.String)[pri:20, instance:javapracticeone.PracticeMethods@a48474]" status="SKIP" duration-ms="0" finished-at="2017-08-17T16:36:54Z" started-at="2017-08-17T16:36:54Z" depends-on-methods="javapracticeone.PracticeMethods.usingWrapperMethods" data-provider="useData" description="using data provider">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method public void javapracticeone.PracticeMethods.dataUsingDataProvider(java.lang.String,java.lang.String) throws java.io.IOException requires a @DataProvider named : useData]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void javapracticeone.PracticeMethods.dataUsingDataProvider(java.lang.String,java.lang.String) throws java.io.IOException requires a @DataProvider named : useData
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:262)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:418)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1269)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataUsingDataProvider -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-08-17T16:36:54Z" finished-at="2017-08-17T16:36:54Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-08-25T23:19:51Z" finished-at="2017-08-25T23:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-08-17T16:36:54Z" finished-at="2017-08-17T16:36:54Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-08-25T23:19:51Z" finished-at="2017-08-25T23:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="FAIL" signature="afterSuite()[pri:0, instance:javapracticeone.PracticeMethods@a48474]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-08-17T16:36:55Z" finished-at="2017-08-17T16:36:55Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at javapracticeone.PracticeMethods.afterSuite(PracticeMethods.java:1041)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:javapracticeone.PracticeMethodsOne@16a51ab]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-08-25T23:19:51Z" finished-at="2017-08-25T23:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- javapracticeone.PracticeMethods -->
-    </test> <!-- Rohith's test(failed) -->
-  </suite> <!-- Failed suite [Rohith test Suite] -->
+      </class> <!-- javapracticeone.PracticeMethodsOne -->
+    </test> <!-- Rohith's test -->
+  </suite> <!-- Rohith's suite -->
 </testng-results>

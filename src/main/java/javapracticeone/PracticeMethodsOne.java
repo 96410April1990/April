@@ -433,7 +433,7 @@ public class PracticeMethodsOne extends CommonWebElements {
 			
 			//Executing a query
 			stmtOne = connOne.createStatement();
-			String sql = "INSERT INTO public.users(id, first_name, last_name, age, date_of_birth) VALUES(324053, 'Sabarethinam', 'Srinivasan', 27, '1989-04-10')";
+			String sql = "INSERT INTO public.users(id, first_name, last_name, age, date_of_birth) VALUES(324054, 'Vinoth', 'P', 27, '1989-08-15')";
 			stmtOne.executeUpdate(sql);
 			stmtOne.close();
 			connOne.close();			
