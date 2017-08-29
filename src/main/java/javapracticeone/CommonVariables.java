@@ -53,7 +53,7 @@ public class CommonVariables extends GlobalVariables {
 	String googleUrl = "https://www.google.co.in";
 	String salesForceUrl = "https://developer.salesforce.com/signup?d=70130000000td6N";
 	protected String twitterUrl = "https://twitter.com/";
-	protected String twitterLoginPageText = "Twitter. It's what's happening.";
+	protected String twitterLoginPageText = "What’s happening?";
 	String itctcUrl = "https://www.irctc.co.in/eticketing/userSignUp.jsf";
 	String gmailUrl = "https://www.google.com/gmail/about/";
 	String w3schoolsUrl = "http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert";

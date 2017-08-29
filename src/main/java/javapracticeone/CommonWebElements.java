@@ -55,6 +55,7 @@ public class CommonWebElements extends CommonVariables {
 	public static String quoraLoginEmailXpath = "/html/body/div[4]/div/div[2]/div[2]/div[1]/div/div[2]/div/div/div/form/div[2]/div[1]/input";
 	public static String quoraLoginPwdXpath = "/html/body/div[4]/div/div[2]/div[2]/div[1]/div/div[2]/div/div/div/form/div[2]/div[2]/input";
 	public static String quoraLoginSubmitXpath = "/html/body/div[4]/div/div[2]/div[2]/div[1]/div/div[2]/div/div/div/form/div[2]/div[3]/input";
+	protected static String twitterLoginPageTextXpath = "/html/body/div/div[1]/div/div[1]/div[3]/h2";
 	protected static String twitterLoginBtnXpath = "/html/body/div[2]/div[1]/div/div[1]/div[2]/a[3]";
 	protected static String twitterLoginIdXpath = "/html/body/div[20]/div/div[2]/div[2]/div[2]/form/div[1]/input";
 	protected static String twitterLoginPwdXpath = "/html/body/div[20]/div/div[2]/div[2]/div[2]/form/div[2]/input";
@@ -64,7 +65,7 @@ public class CommonWebElements extends CommonVariables {
 	protected static String twitterLogoutBtnOneXpath = "/html/body/div[2]/div[1]/div[2]/div/div/div[3]/ul/li[1]/div/ul/li[13]/button";
 	protected static String twitterLogoutPageXpath = "/html/body/div[2]/div[1]/div/div/div/div/ul[2]/li/a/small";
 	protected static String twitterInvalidCredentialsMsgXpath = "/html/body/div[2]/div/div/span";
-	
+		
 	//Relative xpath
 	
 	public static String jquerySortableAbsXpath = "/html/body/div[1]/div[2]/div/div[2]/aside[1]/ul/li[5]/a";
