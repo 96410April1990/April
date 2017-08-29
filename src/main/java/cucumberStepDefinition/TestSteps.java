@@ -1,9 +1,11 @@
 package cucumberStepDefinition;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -227,4 +229,93 @@ public class TestSteps extends CommonWebElements {
 			System.out.println("The User logs out of the application:"+" "+status);
 		}
 	}
+	
+	@Given("^The Login page is displayed$")
+	public void the_Login_page_is_displayed() throws Throwable {
+	    status = PASS;
+	    try {
+			driver.manage().window().maximize();
+			driver.navigate().to(twitterUrl);
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			System.out.println("Verifying if the login page is displayed or not");
+			if (driver.findElementByTagName(twitterLoginPageText).getText().contains("What’s happening?")) {
+				System.out.println("The Login page is displayed!");
+			} else {
+				System.out.println("The Login page is not displayed!");
+				status = FAIL;
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			System.out.println("The User verifies if the Login page is displayed:"+" "+status);
+		}
+	}
+	
+	@When("^The User enters the id and password$")
+	public void the_User_enters_the_id_and_password(DataTable credentials) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    // For automatic transformation, change DataTable to one of
+	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
+		status = FAIL;
+		try {
+			driver.findElementByXPath(twitterLoginBtnXpath).click();
+			List<List<String>> userDetails = credentials.raw();
+			//Enter the Id of the user
+			System.out.println("The Id of the user is:"+" "+userDetails.get(0).get(0));
+			driver.findElementByXPath(twitterLoginIdXpath).sendKeys(userDetails.get(0).get(0));
+			System.out.println("The password of the user is:"+" "+userDetails.get(0).get(1));
+			driver.findElementByXPath(twitterLoginPwdXpath).sendKeys(userDetails.get(0).get(1));
+			driver.findElementByXPath(twitterLoginBtnOneXpath).click();
+			status = PASS;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			System.out.println("The user logs into twitter.com"+" "+status);
+		}	    
+	}
+	
+	@Then("^verify if the home page is displayed$")
+	public void verify_if_the_home_page_is_displayed() throws Throwable {
+	    status = FAIL;
+	    try {
+	    	System.out.println("Verifying if the home page is displayed or not");
+	    	if (driver.findElementByXPath(twitterHomeBtnXpath).getText().contains("Home")) {
+	    		System.out.println("The Home page is displayed!");
+			} else {
+				System.out.println("The Home page is not displayed!");
+				status = FAIL;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			System.out.println("The User verifies if the Homepage is displayed:"+" "+status);
+		}
+	}
+	
+	@Then("^logout of the website$")
+	public void logout_of_the_website() throws Throwable {
+		status = PASS;
+	    try {
+			driver.findElementByXPath(twitterLogoutBtnXpath).click();
+			driver.findElementByXPath(twitterLogoutBtnOneXpath).click();
+			if (driver.findElementByXPath(twitterLogoutPageXpath).getText().contains("Have an account?")) {
+				System.out.println("The Logout page is displayed!");
+				driver.quit();
+			} else {
+				System.out.println("The Logout page is not displayed!");
+				driver.quit();
+				status = FAIL;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			System.out.println("The User logs out of the application:"+" "+status);
+		}
+	}
+	
 }
