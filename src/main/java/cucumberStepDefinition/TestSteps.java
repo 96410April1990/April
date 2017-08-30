@@ -1,6 +1,7 @@
 package cucumberStepDefinition;
 
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -318,4 +319,123 @@ public class TestSteps extends CommonWebElements {
 		}
 	}
 	
+	@Given("^The login page of twitter\\.com is displayed$")
+	public void the_login_page_of_twitter_com_is_displayed() throws Throwable {
+		status = PASS;
+	    try {
+			driver.manage().window().maximize();
+			driver.navigate().to(twitterUrl);
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			System.out.println("Verifying if the login page is displayed or not");
+			if (driver.findElementByTagName(twitterLoginPageText).getText().contains("What’s happening?")) {
+				System.out.println("The Login page is displayed!");
+			} else {
+				System.out.println("The Login page is not displayed!");
+				status = FAIL;
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			System.out.println("The User verifies if the Login page is displayed:"+" "+status);
+		}
+	}
+	
+	@Given("^The login Id and Password of the user is entered$")
+	public void the_login_Id_and_Password_of_the_user_is_entered(DataTable userCredentials) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    // For automatic transformation, change DataTable to one of
+	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
+		status = FAIL;
+		try {
+			driver.findElementByXPath(twitterLoginBtnXpath).click();
+			List<Map<String,String>> LoginCredentials = userCredentials.asMaps(String.class, String.class);
+			//Enter the Id of the user
+			System.out.println("The Id of the user is:"+" "+LoginCredentials.get(0).get(0));
+			driver.findElementByXPath(twitterLoginIdXpath).sendKeys(LoginCredentials.get(0).get(0));
+			System.out.println("The password of the user is:"+" "+LoginCredentials.get(0).get(1));
+			driver.findElementByXPath(twitterLoginPwdXpath).sendKeys(LoginCredentials.get(0).get(1));
+			driver.findElementByXPath(twitterLoginBtnOneXpath).click();
+			status = PASS;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			System.out.println("The user logs into twitter.com"+" "+status);
+		}	    
+	}
+	
+	@When("^The home page of twitter\\.com is displayed$")
+	public void the_home_page_of_twitter_com_is_displayed() throws Throwable {
+		status = FAIL;
+	    try {
+	    	System.out.println("Verifying if the home page is displayed or not");
+	    	if (driver.findElementByXPath(twitterHomeBtnXpath).getText().contains("Home")) {
+	    		System.out.println("The Home page is displayed!");
+			} else {
+				System.out.println("The Home page is not displayed!");
+				status = FAIL;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			System.out.println("The User verifies if the Homepage is displayed:"+" "+status);
+		} 
+	}
+	
+	@Then("^logout of twitter\\.com$")
+	public void logout_of_twitter_com() throws Throwable {
+		status = PASS;
+	    try {
+			driver.findElementByXPath(twitterLogoutBtnXpath).click();
+			driver.findElementByXPath(twitterLogoutBtnOneXpath).click();
+			if (driver.findElementByXPath(twitterLogoutPageXpath).getText().contains("Have an account?")) {
+				System.out.println("The Logout page is displayed!");
+				driver.quit();
+			} else {
+				System.out.println("The Logout page is not displayed!");
+				driver.quit();
+				status = FAIL;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			System.out.println("The User logs out of the application:"+" "+status);
+		}
+	}
+	
+	@Given("^The signup page of salesforce\\.com is displayed$")
+	public void the_signup_page_of_salesforce_com_is_displayed() throws Throwable {
+	    status = PASS;
+	    try {
+			driver.manage().window().maximize();
+			driver.navigate().to(salesForceUrl);
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			System.out.println("Verifying if the salesforce signup page is displayed or not");
+			if (driver.findElementByXPath(salesForceHomePageText).getText().contains(salesForceHomePageVerifyText)) {
+				System.out.println("The salesforce signup page is displayed");
+			} else {
+				System.out.println("The salesforce signup page is not displayed");
+				status = FAIL;
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			System.out.println("The signup page of salesforce.com is displayed:"+" "+status);
+		}	    
+	}
+	
+	@When("^The user enters the firstname, lastname and the mail id$")
+	public void the_user_enters_the_firstname_lastname_and_the_mail_id(DataTable arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    // For automatic transformation, change DataTable to one of
+	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
+	    status = FAIL;
+	    
+	}
 }

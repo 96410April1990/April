@@ -51,7 +51,8 @@ public class CommonVariables extends GlobalVariables {
 	String firefoxBrowser = "firefox";
 	String chromeBrowser = "chrome";
 	String googleUrl = "https://www.google.co.in";
-	String salesForceUrl = "https://developer.salesforce.com/signup?d=70130000000td6N";
+	protected String salesForceUrl = "https://developer.salesforce.com/signup?d=70130000000td6N";
+	protected String salesForceHomePageVerifyText = "Get your very own Developer Edition";
 	protected String twitterUrl = "https://twitter.com/";
 	protected String twitterLoginPageText = "What’s happening?";
 	String itctcUrl = "https://www.irctc.co.in/eticketing/userSignUp.jsf";

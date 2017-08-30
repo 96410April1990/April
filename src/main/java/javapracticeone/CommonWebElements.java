@@ -8,6 +8,7 @@ public class CommonWebElements extends CommonVariables {
 	public static String enterNameGoogleUrlFirefox = "/html/body/div/div[3]/form/div[2]/div[2]/div[1]/div[1]/div[2]/div/div/div[3]/div/input[1]";
 	public static String googleSearchButtonFirefox = "/html/body/div/div[3]/form/div[2]/div[2]/div[1]/div[1]/div[2]/button";
 	public static String googleSearchButtonChrome = "//*[@id='_fZl']/span/svg";
+	protected static String salesForceHomePageText = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/h1";
 	public static String salesForceEnterFirstName = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/div[2]/form/div[2]/div[1]/input";
 	public static String salesForceEnterLastName = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/div[2]/form/div[2]/div[2]/input";
 	public static String salesForceEnterEmail = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/div[2]/form/input[6]";
