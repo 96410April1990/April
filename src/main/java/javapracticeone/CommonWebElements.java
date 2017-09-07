@@ -16,6 +16,8 @@ public class CommonWebElements extends CommonVariables {
 	public static String salesForceEnterCompany = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/div[2]/form/input[7]";
 	public static String salesForceSelectCountryOne = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/div[2]/form/select[2]";
 	public static String salesForceEnterPostalCode = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/div[2]/form/input[8]";
+	public static String salesForceEnterUserName = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/div[2]/form/input[9]";
+	public static String salesForceClickCheckBox = "/html/body/div[1]/div[5]/div[1]/div[2]/div/div/div[2]/form/div[7]/label[1]";
 	public static String w3schoolFrameXpath = "/html/body/div[7]/div[4]/div/div/iframe";
 	public static String w3schoolTryitButtonXpath = "/html/body/button";
 	public static String w3schoolFrameId = "iframeResult";

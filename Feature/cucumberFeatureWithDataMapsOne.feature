@@ -9,8 +9,8 @@ Then The user selects the role, company and the country
 | company 											 | 
 | Cognizant Technology Solutions | 
 Then The user enters the postal code and the username
-| zipCode | userName        | 
-| 600087  | RohithKumar1990 |
+| zipCode | userName                  | 
+| 600087  | rohithkumar1990@gmail.com |
 Then The user does not signup and closes the browser
 
 

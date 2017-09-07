@@ -93,11 +93,11 @@ public class CommonVariables extends GlobalVariables {
 	WebElement listFour;
 	WebElement draggableOne;
 	WebElement droppableOne;
-	Select selectRole;
+	protected Select selectRole;
 	int selectRoleOne = 3;
 	WebElement country;
-	Select selectCountry;
-	String selectCountryOne = "IN";
+	protected Select selectCountry;
+	protected String selectCountryOne = "India";
 	String popupTestPrimaryWindow;
 	Set<String> popupTestWindowHandles;
 	Set<String> popupTestWindowHandlesOne;

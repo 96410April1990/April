@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import cucumber.api.DataTable;
 import cucumber.api.PendingException;
@@ -430,12 +431,84 @@ public class TestSteps extends CommonWebElements {
 	}
 	
 	@When("^The user enters the firstname, lastname and the mail id$")
-	public void the_user_enters_the_firstname_lastname_and_the_mail_id(DataTable arg1) throws Throwable {
+	public void the_user_enters_the_firstname_lastname_and_the_mail_id(DataTable userDetails) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    // For automatic transformation, change DataTable to one of
 	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
 	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
 	    status = FAIL;
-	    
+	    try {
+			List<Map<String, String>> userDetail = userDetails.asMaps(String.class, String.class);
+			driver.findElementByXPath(salesForceEnterFirstName).clear();
+			driver.findElementByXPath(salesForceEnterFirstName).sendKeys(userDetail.get(0).get("firstName"));
+			driver.findElementByXPath(salesForceEnterLastName).clear();
+			driver.findElementByXPath(salesForceEnterLastName).sendKeys(userDetail.get(0).get("lastName"));
+			driver.findElementByXPath(salesForceEnterEmail).clear();
+			driver.findElementByXPath(salesForceEnterEmail).sendKeys(userDetail.get(0).get("mailId"));
+			status = PASS;
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			System.out.println("The user enters the firstname, lastname and the mail id:"+" "+status);
+		}	    
 	}
+	
+	@Then("^The user selects the role, company and the country$")
+	public void the_user_selects_the_role_company_and_the_country(DataTable userCompany) throws Throwable {
+		status = FAIL;
+		try {
+			List<Map<String, String>> selectCompany = userCompany.asMaps(String.class, String.class);
+			selectRole = new Select(driver.findElementByXPath(salesForceSelectRoleOne));
+			selectRole.selectByIndex(3);
+			//Select the company and the country
+			driver.findElementByXPath(salesForceEnterCompany).clear();
+			driver.findElementByXPath(salesForceEnterCompany).sendKeys(selectCompany.get(0).get("company"));
+			selectCountry = new Select(driver.findElementByXPath(salesForceSelectCountryOne));
+			selectCountry.selectByVisibleText(selectCountryOne);
+			status = PASS;
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			System.out.println("The user selects the role, company and the country:"+" "+status);
+		}	    
+	}
+	
+	@Then("^The user enters the postal code and the username$")
+	public void the_user_enters_the_postal_code_and_the_username(DataTable userAddress) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    // For automatic transformation, change DataTable to one of
+	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
+	    status = FAIL;
+	    try {
+			List<Map<String, String>> selectAddress = userAddress.asMaps(String.class, String.class);
+			driver.findElementByXPath(salesForceEnterPostalCode).clear();
+			driver.findElementByXPath(salesForceEnterPostalCode).sendKeys(selectAddress.get(0).get("zipCode"));
+			driver.findElementByXPath(salesForceEnterUserName).clear();
+			driver.findElementByXPath(salesForceEnterUserName).sendKeys(selectAddress.get(0).get("userName"));
+			status = PASS;
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			System.out.println("The user selects the role, company and the country:"+" "+status);
+		}
+	}
+
+	@Then("^The user does not signup and closes the browser$")
+	public void the_user_does_not_signup_and_closes_the_browser() throws Throwable {
+		status = FAIL;
+		try {
+			/*driver.findElementByXPath(salesForceClickCheckBox).click();*/
+			driver.quit();
+			status = PASS;
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally {
+			System.out.println("The user does not signup and closes the browser:"+" "+status);
+		}
+	}	
 }
