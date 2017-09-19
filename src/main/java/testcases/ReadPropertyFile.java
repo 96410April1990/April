@@ -13,7 +13,7 @@ public class ReadPropertyFile {
 		
 		Properties  prop;
 		prop = new Properties();
-		prop.load(new FileInputStream(new File("./config.properties")));
+		prop.load(new FileInputStream(new File("C://Users//NANDAKUMARSIR//April//POM//config.properties")));
 		
 		System.out.println(prop.getProperty("URL"));
 	
