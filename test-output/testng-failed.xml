@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="20" guice-stage="DEVELOPMENT" name="Failed suite [Rohith test Suite]" parallel="methods">
-  <parameter name="browser" value="firefox"/>
-  <test name="Rohith&#039;s test(failed)" parallel="methods">
-    <parameter name="browser" value="firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="javapracticeone.PracticeMethods">
         <methods>
@@ -37,5 +35,5 @@
         </methods>
       </class> <!-- javapracticeone.PracticeMethods -->
     </classes>
-  </test> <!-- Rohith's test(failed) -->
-</suite> <!-- Failed suite [Rohith test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

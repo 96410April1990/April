@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <parameter name="browser" value="firefox"/>
-  <parameter name="browserone" value="chrome"/>
   <test name="Default test(failed)">
     <classes>
-      <class name="javapracticeone.PracticeMethodsOne">
+      <class name="javapracticeone.PracticeMethods">
         <methods>
+          <include name="countFrames"/>
           <include name="beforeClass"/>
-          <include name="beforeMethod"/>
+          <include name="dataUsingDataProvider"/>
+          <include name="usingLoops"/>
+          <include name="starPattern"/>
+          <include name="useTwitterUsingObjectRepo"/>
           <include name="afterClass"/>
-          <include name="usingRightClick"/>
-          <include name="afterTest"/>
-          <include name="dragAndDrop"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
           <include name="beforeTest"/>
+          <include name="printEvenNumber"/>
+          <include name="closeFrames"/>
+          <include name="usingDropDown"/>
+          <include name="afterTest"/>
+          <include name="handlingFrame"/>
+          <include name="usingWrapperMethods"/>
           <include name="afterMethod"/>
+          <include name="handlingAlerts"/>
+          <include name="printLinks"/>
+          <include name="afterSuite"/>
+          <include name="handlingWindows"/>
+          <include name="countDropdown"/>
+          <include name="useAllMethods"/>
+          <include name="readContent"/>
+          <include name="checkPrimeNumber"/>
+          <include name="handlingPrompts"/>
+          <include name="beforeSuite"/>
+          <include name="fibonacciSeries"/>
+          <include name="printAllLinks"/>
         </methods>
-      </class> <!-- javapracticeone.PracticeMethodsOne -->
+      </class> <!-- javapracticeone.PracticeMethods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

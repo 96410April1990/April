@@ -255,7 +255,7 @@ public class PracticeMethods extends CommonWebElements implements CommonMethods 
 	@Test(enabled=true, alwaysRun=true, priority=6, dependsOnMethods={"fibonacciSeries"}, invocationCount=1, description="Access twitter using object repository", timeOut=2500000, expectedExceptions=WebDriverException.class, groups="group1")
 	public void useTwitterUsingObjectRepo() throws IOException, FileNotFoundException, InterruptedException {
 		//Creating the file object
-		file = new File("C:\\Users\\NANDAKUMARSIR\\workspace\\April\\Object_Repo.properties");
+		file = new File("C:\\Users\\NANDAKUMARSIR\\git\\April\\April\\Object_Repo.properties");
 		//Creating the properties object
 		prop = new Properties();
 		//Creating input stream to read data
